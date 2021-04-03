@@ -127,7 +127,7 @@ clearButton.onclick = (e) => {
   clearDoneTasks();
 };
 
-//when closing browser function saves list to localStorage
+//when closing tab or reloading, function saves list to localStorage
 window.onbeforeunload = () => {
   window.localStorage.clear();
   todoItems = [];
