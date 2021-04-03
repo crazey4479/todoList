@@ -1,2 +1,2 @@
 # todoList
-Creates list of tasks and saves them to localStorage.
+Creates list of tasks and saves it to localStorage.
